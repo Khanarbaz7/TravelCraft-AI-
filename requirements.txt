@@ -1,0 +1,52 @@
+#Web framework
+streamlit
+streamlit-chat
+
+#AI & orchestration
+langchain
+langgraph
+
+
+chromadb
+
+#APIs
+serpapi
+requests
+python-dotenv
+
+# Data processing
+pandas 
+numpy 
+python-dateutil
+
+# Visualization & maps
+folium
+plotly
+streamlit-folium
+
+# Document generation
+reportlab
+jinja2
+python-docx
+
+
+#Image handling
+Pillow
+TravelCraft_AI/
+│
+├── app/
+│   ├── main.py                # Streamlit entry point
+│   ├── rag.py                 # ChromaDB + embeddings
+│   ├── api_wrappers.py        # All API functions
+│   ├── itinerary.py           # Itinerary generation logic
+│   ├── utils.py               # Helper functions
+│   └── __init__.py
+│
+├── data/
+│   └── travel_blogs/          # For blog/guide text files
+│
+├── requirements.txt
+├── .env                       # Environment variables
+├── .gitignore
+└── README.md
+
