@@ -106,18 +106,20 @@ Days: 7
 
 Interests: food, art, culture
 → Click Generate → Instant PDF-ready itinerary.
----
-🛡️ Error Handling
 
-  If an API fails → fallback responses (e.g., “No data available”).\
-  If budget exceeds → suggestions for cheaper alternatives.\
-  If LLM hallucination risk → strict grounding in retrieved data.\
----
-🔮 Future Enhancements
+# 🛡️ Error Handling
 
-  🗂 Multi-user persistent memory with Redis/Postgres.\
-  🎙 Voice input (Whisper ASR) + voice output (TTS).\
-  🗺 Real-time events (concerts, strikes, weather alerts).\
-  📱 Mobile app with offline support.\
-  🤖 Personalized recommendation engine (based on past trips).\
+- If an API fails → fallback responses (e.g., “No data available”).
+- If budget exceeds → suggestions for cheaper alternatives.
+- If LLM hallucination risk → strict grounding in retrieved data.
+
 ---
+
+# 🔮 Future Enhancements
+
+- 🗂 Multi-user persistent memory with Redis/Postgres.
+- 🎙 Voice input (Whisper ASR) + voice output (TTS).
+- 🗺 Real-time events (concerts, strikes, weather alerts).
+- 📱 Mobile app with offline support.
+- 🤖 Personalized recommendation engine (based on past trips).
+
