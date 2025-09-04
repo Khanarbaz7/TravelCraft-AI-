@@ -5,7 +5,7 @@ streamlit-chat
 #AI & orchestration
 langchain
 langgraph
-
+langsmith
 
 chromadb
 
